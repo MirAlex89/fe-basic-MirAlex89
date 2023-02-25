@@ -1,1 +1,3 @@
-# fe-basic-MirAlex89
+# fe-basic-course-Oleksandr-Miroshnyk
+
+Hillel School
