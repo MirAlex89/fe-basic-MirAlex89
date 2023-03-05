@@ -6,10 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW4</title>
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
-<body>
 
+<body>
+    <main>
+        <section>
+            <h1 class="main-title">
+                Тип селекторів
+            </h1>
+            <ol>
+                <li class="list-title"><b>Селектор тегу </b> - надає стилі всім елементам з однаковим тегом.Має
+                    найменший
+                    приорітет.</li>
+                <li class="list-title"><b> Селектор за класом</b> - надає стилі для елементів для яких вказаний
+                    атрибут class.
+                </li>
+                <li class="list-title"><b>Селектор за атрибутом</b> - дозволяє звернутись до елементу і надати стилі за
+                    його атрибутом. Має
+                    однакові приорітети з селектором класу
+                </li>
+                <li class="list-title"> <b>ID селектори </b> - самий пріоритетний тип селекторів, стилі вказані з
+                    цим селектором застосовуються першочергово. </li>
+                <li class="list-title"><b>За вкладеністю</b> - встановлює стилі для конкретного елементу або елементу
+                    який знаходиться в
+                    середині іншого </li>
+            </ol>
+        </section>
+        <section>
+            <div>
+                <h2>
+                    Приклади селекторів
+                </h2>
+            </div>
+            <div>
+                <h3>Селектор тегу</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, asperiores.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="description">Селектор класу</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit et
+                    consequuntur
+                    deleniti exercitationem optio.</p>
+            </div>
+            <div>
+                <h3>Селектор за атрибутом</h3>
+                <p class="description-2" data-target=""> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Commodi nobis,
+                    voluptas facilis voluptatem
+                    hic accusamus alias dolorem!</p>
+            </div>
+
+            <div>
+                <h3>ID Селектор</h3>
+                <p id="Important"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Commodi nobis,
+                    voluptas facilis voluptatem
+                    hic accusamus alias dolorem!</p>
+            </div>
+            <section>
+                <h4 class="last-selector">Вкладений Селектор</h4>
+                <p class="description-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eligendi facilis
+                    consectetur quasi
+                    molestiae consequatur quo repellat, voluptates quis unde, libero dolorum necessitatibus excepturi
+                    recusandae ipsum architecto illo ullam. Esse!</p>
+            </section>
+
+
+        </section>
+    </main>
 </body>
 
 </html>

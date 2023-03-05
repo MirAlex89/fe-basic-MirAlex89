@@ -1,0 +1,35 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+p {
+  color: rgb(104, 165, 42);
+}
+.description {
+  color: blue;
+}
+.paragraph {
+  color: darkmagenta;
+}
+[data-target] {
+  color: chartreuse;
+}
+#Important {
+  color: deeppink;
+}
+p.description-3 {
+  color: dodgerblue;
+}
+.main-title {
+  color: firebrick;
+}
+
+.list-title {
+  color: darkslateblue;
+}
+h2 {
+  color: darkblue;
+}
+.last-selector {
+  color: rgb(138, 176, 207);
+}
