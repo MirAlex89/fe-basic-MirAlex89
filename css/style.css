@@ -13,3 +13,20 @@ a:hover {
   max-width: 1140px;
   margin: 0 auto;
 }
+.card {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 64px;
+  background: #fc8f8f;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.wrap {
+  margin: 50px;
+  background: #c4c4c4;
+}
