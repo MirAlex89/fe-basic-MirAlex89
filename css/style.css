@@ -10,15 +10,22 @@ a:hover {
   color: inherit;
 }
 .container {
-  max-width: 1140px;
-  margin: 0 auto;
+  max-width: 1100px;
+  height: 800px;
+  background: #c4c4c4;
+  margin: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .card {
   width: 200px;
   height: 200px;
-  text-align: center;
   font-size: 64px;
+  text-align: center;
   background: #fc8f8f;
+  color: #ffffff;
+  font-weight: 700;
+  float: left;
 }
 .float-left {
   float: left;
@@ -27,6 +34,32 @@ a:hover {
   float: right;
 }
 .wrap {
+  max-width: 1000px;
+  background: #e6e6e6;
   margin: 50px;
-  background: #c4c4c4;
+}
+.clearfix {
+  clear: both;
+}
+.small-card {
+  width: 100px;
+  height: 100px;
+  margin-left: 15px;
+  float: left;
+}
+.card-container {
+  float: right;
+}
+.card-container2.float-left {
+  float: left;
+  margin-left: 15px;
+}
+.card-container2 {
+  float: right;
+}
+.ml {
+  margin-left: 15px;
+}
+.mr {
+  margin-right: 15px;
 }
