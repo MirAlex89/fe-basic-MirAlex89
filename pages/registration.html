@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fonts/font.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Sign-up</title>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="main-page" href="../index.html">AlexAvto</a>
+            <a class="sign-up" href="./registration.html">Sign-up</a>
+            <a class="sign-in" href="./sign-in.html">Sign-in</a>
+            <a class="search" href="./search.html">Search</a>
+        </nav>
+    </header>
+    <main class="main">
+        <section>
+            <div class="container">
+                <h1 class="main-title">Sign up</h1>
+                <form action="https://fom.in.ua/echo" method="post">
+                    <fieldset class="fieldset">
+                        <legend>
+                            Enter your info
+                        </legend>
+                        <p>
+                            <label>
+                                <span class="title">
+                                    First Name
+                                </span>
+                                <input class="imput" type="text" name="FirstName" placeholder="First Name" required>
+                            </label>
+                        </p>
+                        <p>
+                            <label class="Label">
+                                <span class="title">
+                                    Last Name
+                                </span>
+                                <input class="imput" type="text" name="LastName" placeholder="last Name" required>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <span class="title">
+                                    Email Adress
+                                </span>
+                                <input class="imput" type="Email" placeholder="Email Adress" required>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <span class="title">
+                                    Phone Number
+                                </span>
+                                <input class="imput" type="tel" placeholder="Phone Number" required></label>
+                        </p>
+                        <p>
+                            <label>
+                                <span class="title">
+                                    Date of Birth
+                                </span>
+                                <input type="date">
+                            </label>
+                        </p>
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <legend>
+                            Set your password
+                        </legend>
+                        <p>
+                            <label>
+                                <span class="title">
+                                    Password
+                                </span>
+                                <input type="password" name="Password" placeholder="Enter new password" required>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <span class="title">
+                                    Password
+                                </span>
+                                <input type="password" name="Password" placeholder="Confirm password" required>
+                            </label>
+                        </p>
+                        <button class="button">
+                            Sign up </button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>

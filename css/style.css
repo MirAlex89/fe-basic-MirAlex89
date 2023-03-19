@@ -18,10 +18,87 @@ html {
   font-weight: 400;
   color: #252525;
 }
+.navigation {
+  font-style: italic;
+  font-weight: 900;
+  margin-top: 30px;
+}
+.main {
+  margin-top: 40px;
+  background-color: aqua;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .container {
+  background-color: antiquewhite;
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.main-title {
+  color: darkmagenta;
+}
+.button {
+  width: 100px;
+  margin-top: 10px;
+  color: rgb(22, 2, 18);
+  background-color: goldenrod;
+}
+.fieldset {
+  width: 350px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.title {
+  display: inline-block;
+  min-width: 200px;
+}
+.button-sign-up {
+  width: 100px;
+  color: rgb(22, 2, 18);
+  background-color: goldenrod;
+  margin-bottom: 20px;
+  margin-left: 400px;
+}
+.maintitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  margin-top: 50px;
+}
+.main-page {
+  margin-left: 20px;
+  font-size: xx-large;
+  color: blue;
+}
+.sign-up {
+  margin-left: 40px;
+  font-size: x-large;
+}
+
+.sign-in {
+  margin-left: 40px;
+  font-size: x-large;
+}
+.search {
+  margin-left: 40px;
+  font-size: x-large;
+}
+.remember-pasword {
+  margin-left: 40px;
+}
+.image {
+  max-width: 100%;
+}
+.body-type {
+  color: green;
+}
+.search {
+  width: 300px;
+}
+.container2 {
+  display: inline-block;
 }

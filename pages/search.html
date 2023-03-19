@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Пошук</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="main-page" href="../index.html">AlexAvto</a>
+            <a class="sign-up" href="./registration.html">Sign-up</a>
+            <a class="sign-in" href="./sign-in.html">Sign-in</a>
+            <a class="search" href="./search.html">Search</a>
+        </nav>
+    </header>
+    <main class="main">
+        <section>
+            <div class="container">
+                <h1 class="main-title">Search</h1>
+                <form action="https://fom.in.ua/echo" method="post">
+                    <div>
+                        <fieldset class="fieldset">
+                            <legend>
+                                Car Body Type
+                            </legend>
+                            <p><label>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="body-type">
+                                        hatchback
+                                    </span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="body-type">
+                                        station wagon
+                                    </span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="body-type">
+                                        pickup truck
+                                    </span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="body-type">
+                                        van
+                                    </span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="body-type">
+                                        minivan
+                                    </span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="body-type">
+                                        sedan
+                                    </span>
+                                </label>
+                            </p>
+                            <p><label>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="body-type">
+                                        off-road car
+                                    </span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="body-type">
+                                        coupe
+                                    </span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="body-type">
+                                        four-door coupe
+                                    </span>
+                                </label></p>
+                            <p><label>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="body-type">
+                                        four-door sedan
+                                    </span>
+                                </label></p>
+                        </fieldset>
+                    </div>
+                    <div class="container2">
+                        <fieldset class="fieldset">
+                            <legend>Chose car model</legend>
+                            <select name="select">
+                                <option value="0" disabled selected>Car model</option>
+                                <option value="1">BMW</option>
+                                <option value="2">Opel</option>
+                                <option value="3">Mazda</option>
+                                <option value="4">Audi</option>
+                                <option value="5">Jeep</option>
+                                <option value="6">Mercedes</option>
+                                <option value="7">Ford</option>
+                                <option value="8">Chevrolet</option>
+                                <option value="9">Fiat</option>
+                                <option value="9">Citroen</option>
+                                <option value="9">Honda</option>
+                                <option value="9">Huyndai</option>
+                                <option value="9">Lexus</option>
+                            </select>
+                            <p><span>Choose color</span>
+                                <label>
+                                    <input type="color" name="color">
+                                </label>
+                            </p>
+                            <p><label>
+                                    <span>Price</span>
+                                    <input type="number" name="price" min="1" max="5000000">
+                                </label>
+                                <select name="Price">
+                                    <option value="currency">UAH</option>
+                                    <option value="currency">$</option>
+                                    <option value="currency">Euro</option>
+                                </select>
+                            </p>
+                            <label>
+                                <span>Year from</span>
+                                <input type="number" name="Year" min="1990" max="2022">
+                            </label>
+                            <label>
+                                <span>Year to</span>
+                                <input type="number" name="Year" min="1991" max="2023">
+                            </label>
+                            <select name="select" multiple></select>
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
