@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 a,
 a:hover {
   text-decoration: none;
@@ -23,15 +22,9 @@ html {
   font-weight: 900;
   margin-top: 30px;
 }
-.main {
-  margin-top: 40px;
-  background-color: aqua;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 .container {
-  background-color: antiquewhite;
   max-width: 1140px;
+  background-color: rgb(159, 224, 242);
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -44,48 +37,27 @@ html {
   width: 100px;
   margin-top: 10px;
   color: rgb(22, 2, 18);
-  background-color: goldenrod;
+  background-color: rgb(52, 165, 226);
 }
 .fieldset {
-  width: 350px;
   padding: 10px;
   margin: 30px;
+  display: inline-block;
 }
 
 .title {
   display: inline-block;
-  min-width: 200px;
+  min-width: 130px;
 }
-.button-sign-up {
-  width: 100px;
-  color: rgb(22, 2, 18);
-  background-color: goldenrod;
-  margin-bottom: 20px;
-  margin-left: 400px;
+.car-model {
+  margin-top: 15px;
 }
 .maintitle {
   text-align: center;
   font-weight: bold;
   font-size: 100px;
   margin-top: 50px;
-}
-.main-page {
-  margin-left: 20px;
-  font-size: xx-large;
   color: blue;
-}
-.sign-up {
-  margin-left: 40px;
-  font-size: x-large;
-}
-
-.sign-in {
-  margin-left: 40px;
-  font-size: x-large;
-}
-.search {
-  margin-left: 40px;
-  font-size: x-large;
 }
 .remember-pasword {
   margin-left: 40px;
@@ -94,11 +66,30 @@ html {
   max-width: 100%;
 }
 .body-type {
-  color: green;
+  display: inline-block;
+  width: auto;
 }
-.search {
-  width: 300px;
+
+.price {
+  display: inline-block;
+  width: auto;
 }
-.container2 {
+.color {
+  display: inline-block;
+  width: auto;
+}
+.condition {
+  display: inline-block;
+  width: auto;
+}
+.country {
+  display: inline-block;
+  min-width: auto;
+}
+.nav-item + .nav-item {
+  margin-left: 100px;
+}
+.nav-item {
+  font-size: xx-large;
   display: inline-block;
 }

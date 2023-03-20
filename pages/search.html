@@ -12,135 +12,326 @@
 <body>
     <header>
         <nav>
-            <a class="main-page" href="../index.html">AlexAvto</a>
-            <a class="sign-up" href="./registration.html">Sign-up</a>
-            <a class="sign-in" href="./sign-in.html">Sign-in</a>
-            <a class="search" href="./search.html">Search</a>
+            <a class="nav-item" href="../index.html">AlexAvto</a>
+            <a class="nav-item" href="./registration.html">Sign-up</a>
+            <a class="nav-item" href="./sign-in.html">Sign-in</a>
+            <a class="nav-item" href="./search.html">Search</a>
         </nav>
     </header>
-    <main class="main">
-        <section>
+    <main>
+        <section class="section">
             <div class="container">
                 <h1 class="main-title">Search</h1>
                 <form action="https://fom.in.ua/echo" method="post">
-                    <div>
-                        <fieldset class="fieldset">
-                            <legend>
-                                Car Body Type
-                            </legend>
-                            <p><label>
-                                    <input type="checkbox" name="checkbox">
-                                    <span class="body-type">
-                                        hatchback
-                                    </span>
-                                </label></p>
-                            <p><label>
-                                    <input type="checkbox" name="checkbox">
-                                    <span class="body-type">
-                                        station wagon
-                                    </span>
-                                </label></p>
-                            <p><label>
-                                    <input type="checkbox" name="checkbox">
-                                    <span class="body-type">
-                                        pickup truck
-                                    </span>
-                                </label></p>
-                            <p><label>
-                                    <input type="checkbox" name="checkbox">
-                                    <span class="body-type">
-                                        van
-                                    </span>
-                                </label></p>
-                            <p><label>
-                                    <input type="checkbox" name="checkbox">
-                                    <span class="body-type">
-                                        minivan
-                                    </span>
-                                </label></p>
-                            <p><label>
-                                    <input type="checkbox" name="checkbox">
-                                    <span class="body-type">
-                                        sedan
-                                    </span>
-                                </label>
-                            </p>
-                            <p><label>
-                                    <input type="checkbox" name="checkbox">
-                                    <span class="body-type">
-                                        off-road car
-                                    </span>
-                                </label></p>
-                            <p><label>
-                                    <input type="checkbox" name="checkbox">
-                                    <span class="body-type">
-                                        coupe
-                                    </span>
-                                </label></p>
-                            <p><label>
-                                    <input type="checkbox" name="checkbox">
-                                    <span class="body-type">
-                                        four-door coupe
-                                    </span>
-                                </label></p>
-                            <p><label>
-                                    <input type="checkbox" name="checkbox">
-                                    <span class="body-type">
-                                        four-door sedan
-                                    </span>
-                                </label></p>
-                        </fieldset>
-                    </div>
-                    <div class="container2">
-                        <fieldset class="fieldset">
-                            <legend>Chose car model</legend>
-                            <select name="select">
-                                <option value="0" disabled selected>Car model</option>
-                                <option value="1">BMW</option>
-                                <option value="2">Opel</option>
-                                <option value="3">Mazda</option>
-                                <option value="4">Audi</option>
-                                <option value="5">Jeep</option>
-                                <option value="6">Mercedes</option>
-                                <option value="7">Ford</option>
-                                <option value="8">Chevrolet</option>
-                                <option value="9">Fiat</option>
-                                <option value="9">Citroen</option>
-                                <option value="9">Honda</option>
-                                <option value="9">Huyndai</option>
-                                <option value="9">Lexus</option>
-                            </select>
-                            <p><span>Choose color</span>
-                                <label>
-                                    <input type="color" name="color">
-                                </label>
-                            </p>
-                            <p><label>
-                                    <span>Price</span>
-                                    <input type="number" name="price" min="1" max="5000000">
-                                </label>
-                                <select name="Price">
-                                    <option value="currency">UAH</option>
-                                    <option value="currency">$</option>
-                                    <option value="currency">Euro</option>
-                                </select>
-                            </p>
+                    <fieldset class="fieldset body-type">
+                        <legend>
+                            Body Type
+                        </legend>
+                        <p>
                             <label>
-                                <span>Year from</span>
-                                <input type="number" name="Year" min="1990" max="2022">
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    hatchback
+                                </span>
                             </label>
+                        </p>
+                        <p>
                             <label>
-                                <span>Year to</span>
-                                <input type="number" name="Year" min="1991" max="2023">
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    station wagon
+                                </span>
                             </label>
-                            <select name="select" multiple></select>
-                        </fieldset>
-                    </div>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    pickup truck
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    van
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    minivan
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    sedan
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    off-road car
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    coupe
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    four-door coupe
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type title">
+                                    four-door sedan
+                                </span>
+                            </label>
+                        </p>
+                        <span class="title car-model">
+                            Chose car model
+                        </span>
+                        <select name="select">
+                            <option value="0" disabled selected>Car model</option>
+                            <option value="1">BMW</option>
+                            <option value="2">Opel</option>
+                            <option value="3">Mazda</option>
+                            <option value="4">Audi</option>
+                            <option value="5">Jeep</option>
+                            <option value="6">Mercedes</option>
+                            <option value="7">Ford</option>
+                            <option value="8">Chevrolet</option>
+                            <option value="9">Fiat</option>
+                            <option value="9">Citroen</option>
+                            <option value="9">Honda</option>
+                            <option value="9">Huyndai</option>
+                            <option value="9">Lexus</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="fieldset color">
+                        <legend>
+                            Color,Year
+                        </legend>
+
+                        <p>
+                            <span>
+                                Color
+                            </span>
+                            <label>
+                                <input type="color" name="color">
+                            </label>
+                        </p>
+                        <label>
+                            <span>
+                                Year from
+                            </span>
+                            <input type="number" name="Year" min="1990" max="2022">
+                        </label>
+                        <label>
+                            <span>
+                                Year to
+                            </span>
+                            <input type="number" name="Year" min="1991" max="2023">
+                        </label>
+                    </fieldset>
+                    <fieldset class="fieldset price">
+                        <legend>
+                            Price
+                        </legend>
+                        <select name="Price">
+                            <option value="currency">UAH</option>
+                            <option value="currency">$</option>
+                            <option value="currency">Euro</option>
+                        </select>
+                        <label>
+                            <span>
+                                from
+                            </span>
+                            <input type="number" name="price" min="1" max="1000000000">
+                        </label>
+                        <label>
+                            <span>
+                                to
+                            </span>
+                            <input type="number" name="price" min="2" max="1000000001">
+                        </label>
+                    </fieldset>
+                    <fieldset class="fieldset country">
+                        <legend>
+                            Country
+                        </legend>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    Germany
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    Italy
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    Japan
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    France
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="checkbox">
+                                <span class="body-type">
+                                    USA
+                                </span>
+                            </label>
+                        </p>
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <legend>
+                            Fuel
+                        </legend>
+                        <p>
+                            <label>
+                                <input type="radio" name="fuel">
+                                <span class="title">
+                                    Fuel
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="radio" name="fuel">
+                                <span class="title">Gas</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="radio" name="fuel">
+                                <span class="title">
+                                    Electric car
+                                </span>
+                            </label>
+                        </p>
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <legend>
+                            Condition
+                        </legend>
+                        <p>
+                            <label>
+                                <input type="radio" name="condition">
+                                <span class="title">New</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="radio" name="condition">
+                                <span class="title">
+                                    Used
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="radio" name="condition">
+                                <span class="title">
+                                    After accident
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="radio" name="condition">
+                                <span class="title">
+                                    Renewed
+                                </span>
+                            </label>
+                        </p>
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <legend>
+                            Comfort
+                        </legend>
+                        <select name="select" multiple>
+                            <option value="0" disabled selected>Comfort</option>
+                            <option value="1">Onboard computer</option>
+                            <option value="2">Sunroof</option>
+                            <option value="3">leather interior</option>
+                            <option value="4">Air conditioner</option>
+                            <option value="5">Climat control</option>
+                            <option value="6">Heated seats</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <legend>
+                            Transmision
+                        </legend>
+                        <p>
+                            <label>
+                                <input type="radio" name="transmision">
+                                <span class="title">
+                                    Manual
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="radio" name="transmision">
+                                <span class="title">
+                                    Auto
+                                </span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="radio" name="transmision">
+                                <span class="title">
+                                    Hybrid
+                                </span>
+                            </label>
+                        </p>
+                    </fieldset>
+                    <button class="button">
+                        Search
+                    </button>
                 </form>
             </div>
         </section>
     </main>
-
 </body>
 
 </html>
