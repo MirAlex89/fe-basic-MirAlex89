@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+:root {
+  --container-width: 1110px;
+  --basic-space: 1rem;
+}
 a,
 a:hover {
   text-decoration: none;
@@ -13,16 +16,53 @@ img {
   max-width: 100%;
 }
 html {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #252525;
 }
 
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
 .container {
-  max-width: 1140px;
+  max-width: calc(var(--container-width) + var(--basic-space) * 2);
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: var(--basic-space);
+  padding-right: var(--basic-space);
+}
+.hidden {
+  display: none !important;
+}
+.table {
+  margin: auto;
+  border: 1px solid;
+}
+.table-month {
+  border: 1px solid;
+  margin: 3px;
+}
+th {
+  text-align: center;
+}
+td {
+  padding: 0.5rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.col-1 {
+  background: yellow;
+}
+.title {
+  font-weight: 900;
+  font-size: x-large;
+}
+.month {
+  font-style: italic;
+  font-weight: 900;
 }
