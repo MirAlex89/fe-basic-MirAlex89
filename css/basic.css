@@ -1,6 +1,9 @@
 :root {
   --container-width: 1110px;
   --basic-space: 1rem;
+  --color-solitude: #eeeff1;
+  --color-white: #ffffff;
+  --color-midnight-blue: #34547a;
 }
 * {
   margin: 0;
@@ -18,6 +21,7 @@ img {
 }
 html {
   font-family: "Roboto", sans-serif;
+  line-height: 1.640625;
   font-size: 16px;
   font-weight: 400;
   color: #252525;

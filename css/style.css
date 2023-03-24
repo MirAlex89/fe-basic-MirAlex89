@@ -3,3 +3,98 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.mb {
+  background-color: var(--color-midnight-blue);
+}
+.wt {
+  background-color: var(--color-white);
+}
+.sl {
+  background-color: var(--color-solitude);
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*--------------------------------------------------*/
+.header {
+  padding-top: 79px;
+}
+.logo {
+  font-weight: 500;
+  color: #34547a;
+}
+.nav-title + .nav-title {
+  margin-left: 42px;
+}
+
+/*-------------------------------------------------*/
+.section {
+  padding-bottom: 141px;
+}
+.main-title {
+  font-weight: 500;
+  font-size: 48px;
+  padding-top: 151px;
+}
+.description {
+  width: 540px;
+  margin-top: 60px;
+  color: #727272;
+}
+.button {
+  height: 65px;
+  width: 225px;
+  color: #ffffff;
+  margin-top: 60px;
+}
+/*----------------------------------------------------*/
+.section-about {
+  padding-top: 112px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: #727272;
+}
+.about-title {
+  font-weight: 500;
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+.about {
+  margin-top: 50px;
+  height: 67px;
+  width: 540px;
+}
+/*----------------------------------------------------*/
+.card-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.card {
+  display: inline-block;
+  min-width: 141px;
+}
+
+.image-card {
+  width: 50px;
+  float: left;
+  margin-right: 20px;
+}
+.card-title {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+  float: right;
+  margin-right: 45px;
+}
+.card-description {
+  color: #ffffff;
+}
+
+/*----------------------------------------------------*/
+.wrapper {
+  height: 600px;
+  padding-bottom: 600px;
+}
