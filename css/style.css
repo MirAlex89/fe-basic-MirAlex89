@@ -31,18 +31,20 @@
 /*-------------------------------------------------*/
 .section {
   padding-bottom: 141px;
-}
-.main-title {
-  font-weight: 500;
-  font-size: 48px;
   padding-top: 151px;
 }
+.main-title {
+  max-width: 540px;
+  font-weight: 500;
+  font-size: 48px;
+}
 .description {
-  width: 540px;
+  max-width: 540px;
   margin-top: 60px;
   color: #727272;
 }
 .button {
+  border: none;
   height: 65px;
   width: 225px;
   color: #ffffff;
@@ -50,10 +52,10 @@
 }
 /*----------------------------------------------------*/
 .section-about {
-  padding-top: 112px;
-  padding-bottom: 100px;
   text-align: center;
   color: #727272;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 .about-title {
   font-weight: 500;
@@ -62,8 +64,8 @@
   text-align: center;
 }
 .about {
+  max-width: 540px;
   margin-top: 50px;
-  width: 540px;
 }
 /*----------------------------------------------------*/
 .card-section {
@@ -77,7 +79,7 @@
 }
 
 .image-card {
-  width: 50px;
+  max-width: 50px;
   float: left;
   margin-right: 20px;
 }
@@ -94,22 +96,21 @@
 }
 
 /*----------------------------------------------------*/
-.wrapper {
-  padding-bottom: 50px;
-  height: 600px;
+.video-section {
+  padding: 100px 0 100px 0;
 }
-.work {
-  padding-top: 100px;
+.wrapper {
+  aspect-ratio: 16/9;
+  padding-top: 57px;
 }
 .work-description {
-  margin-bottom: 57px;
+  max-width: 540px;
   margin-top: 50px;
-  height: 67px;
 }
 /*----------------------------------------------------*/
 .footer-section {
   padding-top: 50px;
-  padding-bottom: 82px;
+  padding-bottom: 50px;
 }
 .footer-title {
   font-weight: 500;
