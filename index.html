@@ -13,18 +13,18 @@
 <body>
     <header>
         <div class="container">
-            <nav>
-                <ul>
+            <nav class="nav">
+                <ul class="parent">
                     <li>
                         <a href="">Home</a>
                     </li>
                 </ul>
-                <ul>
-                    <li class=""><a href="">Products</a>
-                        <ul>
+                <ul class="parent">
+                    <li><a href="">Products</a>
+                        <ul class="child">
                             <li><a href="">Product 1</a></li>
                             <li><a href="">Product 2</a>
-                                <ul>
+                                <ul class="child">
                                     <li><a href="">Sub item</a></li>
                                     <li><a href="">Sub item</a></li>
                                 </ul>
@@ -32,10 +32,10 @@
                         </ul>
                     </li>
                 </ul>
-                <ul>
+                <ul class="parent">
                     <li><a href="">About</a></li>
                 </ul>
-                <ul>
+                <ul class="parent">
                     <li><a href="">Contacts</a></li>
                 </ul>
             </nav>
