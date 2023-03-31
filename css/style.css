@@ -3,21 +3,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.mx {
-  margin-left: auto;
-  margin-right: auto;
-}
-.parent {
-  display: inline-block;
-  list-style: none;
-}
-.parent + .parent {
-  margin-left: 30px;
-}
-.child {
+.nav {
+  background-color: blue;
   color: aliceblue;
-  position: absolute;
-}
-.parent:checked + .child {
-  top: 100%;
 }
