@@ -3,7 +3,47 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.header {
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #161513;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo-img {
+  display: flex;
+  gap: 80px;
+}
 .nav {
-  background-color: blue;
-  color: aliceblue;
+  display: flex;
+  flex-grow: 1;
+  gap: 32px;
+  justify-content: center;
+}
+.button {
+  padding: 9px 26px;
+}
+/*.............................................*/
+.first-section {
+  padding-top: 40px;
+}
+.main-content {
+  margin-top: 101px;
+  display: flex;
+  align-items: center;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+}
+.h2 {
+  display: flex;
+  justify-content: space-between;
 }
