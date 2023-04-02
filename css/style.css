@@ -1,55 +1,70 @@
 @import url("./basic.css");
-.py-rem {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.bg-black {
+  background-color: var(--color-black);
+  color: var(--color-white);
 }
-.header {
-  padding-top: 27px;
-  padding-bottom: 27px;
-  font-size: 16px;
+.bg-orange {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap {
+  gap: 32px;
+}
+.grow {
+  flex-grow: 1;
+}
+/*------------------HEADER----------------------------*/
+.header .nav-line {
+  padding-top: 36px;
+  padding-bottom: 36px;
   line-height: 24px;
   text-align: center;
-  color: #161513;
 }
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+.btn {
+  display: inline-block;
+  text-align: center;
+  min-width: 126px;
+  line-height: 41px;
+  border: 1px solid transparent;
 }
-.logo-img {
-  display: flex;
-  gap: 80px;
+.btn.btn-default {
+  border: 1px solid;
 }
-.nav {
-  display: flex;
-  flex-grow: 1;
-  gap: 32px;
-  justify-content: center;
-  text-decoration: underline;
+/*---------------FIRST SECTION---------------*/
+.text-wrap {
+  order: 1;
 }
-.button {
-  padding: 9px 26px;
+.main-title {
+  gap: 44px;
+  max-width: 674px;
+  border-radius: 0px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  letter-spacing: 0.56px;
+  color: var(--text-color);
 }
-/*.............................................*/
-.first-section {
+.span {
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+}
+.text-wrap {
   padding: 40px;
 }
-
-.main-content {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-.text {
-  display: flex;
-  flex-direction: column;
-}
-.description {
-  margin-top: 32px;
-  font-size: 23px;
-}
-.group {
-  display: flex;
-  margin-top: 40px;
+.photo {
+  max-width: 562px;
 }
