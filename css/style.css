@@ -26,24 +26,30 @@
   flex-grow: 1;
   gap: 32px;
   justify-content: center;
+  text-decoration: underline;
 }
 .button {
   padding: 9px 26px;
 }
 /*.............................................*/
 .first-section {
-  padding-top: 40px;
+  padding: 40px;
 }
+
 .main-content {
-  margin-top: 101px;
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
 }
-.description {
+.text {
   display: flex;
   flex-direction: column;
 }
-.h2 {
+.description {
+  margin-top: 32px;
+  font-size: 23px;
+}
+.group {
   display: flex;
-  justify-content: space-between;
+  margin-top: 40px;
 }
